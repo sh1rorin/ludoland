@@ -1,0 +1,158 @@
+/* color memo {
+  --color-1: #19272D;stormy glay
+  --color-2: #efefef;pearl white
+  --color-3: #00AEAE;turquoise blue
+  --color-4: #00898A;aqua blue
+*/
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+header{
+  width: 100%;
+  height: 60px;
+  padding: 1em;
+  margin: 0;
+  background-color: #efefef;
+  border-bottom: solid 2px #4f4f4f;
+}
+
+header img{
+  margin: 0 10px;
+  float: left;
+  height: 60px;
+  align-items: center;
+}
+
+header ul{
+  list-style-type: none;
+  display: block flex;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: #2f2f2f;
+}
+
+.header_links {
+  margin: 0 5%;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+body {
+  background-color: #efefef;
+  height: 300px;
+}
+
+.top_img {
+  margin: 1em 2%;
+  width: 96%;
+  height: 300px;
+  background-color: #737373;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.top_mini_img{
+  width: 100%;
+  height:10%;
+  position:relative;
+}
+.top_mini_img ul{
+  list-style-type: none;
+  width:100%;
+  height:40px;
+  margin: 20px;
+  display: flex;
+  
+}
+
+  .top_mini_img li{
+    width: 10%;
+    height: 100%;
+    background-color: #747474;
+  }
+
+  .top_mini_img a {
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+  }
+
+a img{
+  height: 100%;
+  width:auto;
+}
+
+#img1 {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+}
+
+#img2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#img3 {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%,-50%);
+}
+
+div.main_content {
+  margin:30px 4%;
+  height:auto;
+  width:auto;
+}
+
+.game1_explanation {
+  margin: 0 3%;
+  opacity: 0;
+  display: none;
+  transition: all 0.5s allow-discrete;
+}
+
+.game2_explanation {
+  margin: 0 3%;
+  opacity: 0;
+  display: none;
+  transition: all 0.5s allow-discrete;
+}
+
+.game3_explanation {
+  margin: 0 3%;
+  opacity: 0;
+  display: none;
+  transition: all 0.5s allow-discrete;
+}
+
+.showing{
+  opacity: 1;
+  display: block;
+}
+
+footer {
+  height: 60px;
+  width: 100%;
+  background-color: #2f2f2f;
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+}
+
+footer a {
+  margin: 0;
+  color: #efefef;
+  font-size: 11px;
+  font-weight: 300;
+}
