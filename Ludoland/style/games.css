@@ -50,6 +50,8 @@ canvas {
   background-color: #4f4f4f;
   width: 640px;
   height: 360px;
+  display: flex;
+  align-items: center;
 }
 
 div #btn1 {
