@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/pages/index.html" },
+    { "source": "/game1", "destination": "/pages/game1.html" },
+    { "source": "/game2", "destination": "/pages/game2.html" }
+  ],
+  "static": {
+    "directory": "pages"
+  }
+}
