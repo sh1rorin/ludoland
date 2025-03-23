@@ -48,8 +48,8 @@ div #main_content{
 }
 canvas {
   background-color: #4f4f4f;
-  width: 640px;
-  height: 360px;
+  width: 45%;
+  height: auto;
 }
 
 div #btn1 {
