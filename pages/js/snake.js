@@ -235,7 +235,7 @@ function drawplayer(){
   for(let i = 1;i < bodies.length;i++){
   	ctx.lineTo(bodies[i][0],bodies[i][1]);
   }
-  ctx.strokeStyle ="#59679E";
+  ctx.strokeStyle ="#4d4fff";
   ctx.stroke();
   ctx.closePath();
 }
