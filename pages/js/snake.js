@@ -190,7 +190,7 @@ function drawmap(){
 	for(var h = 0;h < map_height;h++){
   	for(var w = 0;w < map_width;w++){
 			if(h % 2 == w % 2){
-      	ctx.fillStyle = "#7cbd7b";
+      	ctx.fillStyle = "#559954";
       } else {
       	ctx.fillStyle = "#4CC071";
       }
