@@ -107,7 +107,7 @@ body {
 }
 
 .wrapper{
-  width:100%;
+  max-width:1200px;
   height:auto;
   margin:0 auto 90px ;
   padding: 0 4%;
